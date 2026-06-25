@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Primary brand color ──────────────────────────────────────────
+     Change ONLY this value to re-theme the entire site. The dark and
+     soft shades below are derived from it automatically.            */
+  --color-brand: #c01823;
+  --color-brand-dark: color-mix(in srgb, var(--color-brand) 82%, #000);
+  --color-brand-soft: color-mix(in srgb, var(--color-brand) 10%, #fff);
+  --color-ink: #0f172a;
+  --color-ink-muted: #64748b;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
