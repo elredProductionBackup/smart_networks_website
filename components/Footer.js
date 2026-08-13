@@ -91,21 +91,36 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/20 pt-8 sm:flex-row">
-          <p className="text-sm text-white/70">
-            © 2024 Smart Network. All rights reserved.
-          </p>
-          <div className="flex gap-7">
-            {["Privacy Policy", "Terms", "Contact"].map((link) => (
-              <a
-                key={link}
-                href="#"
-                className="text-sm text-white/70 transition-colors hover:text-white"
-              >
-                {link}
-              </a>
-            ))}
+        <div className="mt-14 border-t border-white/20 pt-8">
+          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+            <p className="text-sm text-white/70">
+              © 2024 Smart Network. All rights reserved.
+            </p>
+            <div className="flex gap-7">
+              {["Privacy Policy", "Terms", "Contact"].map((link) => (
+                <a
+                  key={link}
+                  href="#"
+                  className="text-sm text-white/70 transition-colors hover:text-white"
+                >
+                  {link}
+                </a>
+              ))}
+            </div>
           </div>
+
+          <p className="mt-4 text-center text-xs text-white/50 sm:text-left">
+            Smart Network is one amongst many networks trademarked and
+            operated by{" "}
+            <a
+              href="https://www.rextonedigital.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline transition-colors hover:text-white"
+            >
+              Rextone Digital Pvt. Ltd.
+            </a>
+          </p>
         </div>
       </Reveal>
     </footer>
