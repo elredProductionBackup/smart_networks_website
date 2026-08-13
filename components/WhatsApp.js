@@ -2,9 +2,8 @@ import Reveal from "./Reveal";
 
 const BENEFITS = [
   "Create tasks instantly from any WhatsApp chat",
-  "Receive smart reminders before deadlines",
-  "Track task progress without leaving WhatsApp",
-  "Reduce missed follow-ups across teams",
+  "Assign tasks to members without leaving the chat",
+  "Mark tasks complete with a simple reply",
   "Improve officer productivity by 60%",
 ];
 
@@ -139,8 +138,8 @@ export default function WhatsApp() {
           </h2>
 
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-500">
-            Your officers already use WhatsApp every day. Smart Network allows
-            them to create, update, and complete tasks directly from chat — no
+            Your officers already use WhatsApp every day. Smart Network lets
+            them create, assign, and complete tasks directly from chat — no
             app downloads required.
           </p>
 
