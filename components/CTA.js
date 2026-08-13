@@ -17,7 +17,7 @@ export default function CTA() {
 
         <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-slate-500">
           Bring members, events, finances, and operations together in one
-          platform. Join 500+ organizations already running on Smart Network.
+          platform.
         </p>
 
         <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">

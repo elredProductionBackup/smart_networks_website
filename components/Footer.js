@@ -4,31 +4,19 @@ import Reveal from "./Reveal";
 const COLUMNS = [
   {
     title: "Product",
-    links: ["Features", "Solutions", "Pricing", "Changelog", "Roadmap"],
-  },
-  {
-    title: "Resources",
-    links: ["Documentation", "Blog", "Case Studies", "Webinars", "API"],
+    links: ["Features", "Solutions"],
   },
   {
     title: "Company",
-    links: ["About", "Careers", "Press", "Contact", "Partners"],
+    links: ["About", "Contact"],
   },
   {
     title: "Legal",
-    links: ["Privacy Policy", "Terms of Service", "Cookie Policy", "GDPR"],
+    links: ["Privacy Policy", "Terms of Service"],
   },
 ];
 
 const SOCIALS = [
-  {
-    label: "LinkedIn",
-    path: "M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z",
-  },
-  {
-    label: "Twitter",
-    path: "M23 4.5a8.4 8.4 0 0 1-2.4.7 4.2 4.2 0 0 0 1.8-2.3 8.3 8.3 0 0 1-2.6 1 4.1 4.1 0 0 0-7 3.8A11.7 11.7 0 0 1 3 3.2a4.1 4.1 0 0 0 1.3 5.5A4 4 0 0 1 2.4 8v.1a4.1 4.1 0 0 0 3.3 4 4.1 4.1 0 0 1-1.9.1 4.1 4.1 0 0 0 3.8 2.9A8.3 8.3 0 0 1 1 16.7a11.7 11.7 0 0 0 6.3 1.8c7.5 0 11.7-6.3 11.7-11.7v-.5A8.3 8.3 0 0 0 23 4.5Z",
-  },
   {
     label: "Email",
     path: "M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2 8 5 8-5",
@@ -39,7 +27,7 @@ export default function Footer() {
   return (
     <footer className="bg-brand text-white">
       <Reveal className="mx-auto max-w-360 px-5 py-16 sm:px-8 lg:px-12 lg:py-20">
-        <div className="grid gap-10 lg:grid-cols-[1.4fr_repeat(4,1fr)] lg:gap-12">
+        <div className="grid gap-10 lg:grid-cols-[1.4fr_repeat(3,1fr)] lg:gap-12">
           {/* Brand */}
           <div>
             <Image
@@ -65,8 +53,8 @@ export default function Footer() {
                   <svg
                     className="h-5 w-5"
                     viewBox="0 0 24 24"
-                    fill={s.label === "Email" ? "none" : "currentColor"}
-                    stroke={s.label === "Email" ? "currentColor" : "none"}
+                    fill="none"
+                    stroke="currentColor"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"

@@ -1,4 +1,17 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Reveal from "./Reveal";
+
+const container = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.12 } },
+};
+
+const item = {
+  hidden: { opacity: 0, y: 28 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] } },
+};
 
 const ICONS = {
   clock: (
@@ -58,13 +71,23 @@ export default function WhyUs() {
         </h2>
       </Reveal>
 
-      <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4">
-        {CARDS.map((card, i) => (
-          <Reveal
+      <motion.div
+        variants={container}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.3 }}
+        className="mt-14 grid gap-6 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4"
+      >
+        {CARDS.map((card) => (
+          <motion.div
             key={card.title}
-            delay={i * 0.08}
-            className="rounded-3xl border border-slate-100 bg-slate-50/70 p-7 sm:p-8"
+            variants={item}
+            whileHover={{ y: -6 }}
+            transition={{ type: "spring", stiffness: 300, damping: 20 }}
+            className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-7 shadow-sm transition-shadow hover:shadow-xl hover:shadow-slate-200/60 sm:p-8"
           >
+            <span className="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-gradient-to-r from-brand to-rose-400 transition-transform duration-300 group-hover:scale-x-100" />
+
             <span
               className={`flex h-12 w-12 items-center justify-center rounded-xl ${card.tint}`}
             >
@@ -86,9 +109,9 @@ export default function WhyUs() {
             <p className="mt-3 text-base leading-relaxed text-slate-500">
               {card.desc}
             </p>
-          </Reveal>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 }

@@ -50,7 +50,7 @@ const FEATURES = [
   {
     icon: "chat",
     title: "WhatsApp Task Management",
-    desc: "Create, assign, and complete tasks directly through WhatsApp — where your officers already are.",
+    desc: "Share tasks and updates directly through WhatsApp — where your officers already are.",
     badge: "NEW",
     highlight: true,
   },

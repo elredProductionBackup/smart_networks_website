@@ -1,12 +1,5 @@
 import DashboardMock from "./DashboardMock";
 import Reveal from "./Reveal";
-import CountUp from "./CountUp";
-
-const STATS = [
-  { value: "500+", label: "Organizations" },
-  { value: "10K+", label: "Members Managed" },
-  { value: "95%", label: "Efficiency Gain" },
-];
 
 export default function Hero() {
   return (
@@ -61,17 +54,6 @@ export default function Hero() {
               Watch Product Tour
             </a>
           </div>
-
-          <dl className="mt-12 flex flex-wrap gap-x-7 gap-y-6 sm:gap-x-14">
-            {STATS.map((stat) => (
-              <div key={stat.label}>
-                <dt className="font-display text-3xl font-extrabold text-ink sm:text-4xl">
-                  <CountUp value={stat.value} />
-                </dt>
-                <dd className="mt-1 text-sm text-slate-500">{stat.label}</dd>
-              </div>
-            ))}
-          </dl>
         </Reveal>
 
         {/* Right: dashboard */}

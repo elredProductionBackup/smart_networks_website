@@ -7,8 +7,6 @@ import Product from "@/components/Product";
 import WhatsApp from "@/components/WhatsApp";
 import WhyUs from "@/components/WhyUs";
 import HowItWorks from "@/components/HowItWorks";
-import StatsBanner from "@/components/StatsBanner";
-import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
@@ -24,8 +22,6 @@ export default function Home() {
       <WhatsApp />
       <WhyUs />
       <HowItWorks />
-      <StatsBanner />
-      <Testimonials />
       <CTA />
       <Footer />
     </main>
