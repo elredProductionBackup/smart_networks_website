@@ -18,6 +18,9 @@ export const metadata = {
   title: "Smart Networks — Run Your Entire Network From One Platform",
   description:
     "Manage members, events, finances, registrations, invitations, programs, and daily operations — without spreadsheets or scattered tools.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
