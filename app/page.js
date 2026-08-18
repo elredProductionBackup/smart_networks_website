@@ -7,6 +7,8 @@ import Product from "@/components/Product";
 import WhatsApp from "@/components/WhatsApp";
 import WhyUs from "@/components/WhyUs";
 import HowItWorks from "@/components/HowItWorks";
+import CostOfWaiting from "@/components/CostOfWaiting";
+import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
@@ -22,6 +24,8 @@ export default function Home() {
       <WhatsApp />
       <WhyUs />
       <HowItWorks />
+      <CostOfWaiting />
+      <FAQ />
       <CTA />
       <Footer />
     </main>

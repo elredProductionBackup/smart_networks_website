@@ -4,15 +4,24 @@ import Reveal from "./Reveal";
 const COLUMNS = [
   {
     title: "Product",
-    links: ["Features", "Solutions"],
+    links: [
+      { label: "Features", href: "#features" },
+      { label: "Solutions", href: "#solutions" },
+    ],
   },
   {
     title: "Company",
-    links: ["About", "Contact"],
+    links: [
+      { label: "About", href: "#about" },
+      { label: "Contact", href: "#" },
+    ],
   },
   {
     title: "Legal",
-    links: ["Privacy Policy", "Terms of Service"],
+    links: [
+      { label: "Privacy Policy", href: "#" },
+      { label: "Terms of Service", href: "#" },
+    ],
   },
 ];
 
@@ -75,12 +84,12 @@ export default function Footer() {
               </h3>
               <ul className="mt-5 space-y-3.5">
                 {col.links.map((link) => (
-                  <li key={link}>
+                  <li key={link.label}>
                     <a
-                      href="#"
+                      href={link.href}
                       className="text-[15px] text-white/75 transition-colors hover:text-white"
                     >
-                      {link}
+                      {link.label}
                     </a>
                   </li>
                 ))}
@@ -94,7 +103,7 @@ export default function Footer() {
         <div className="mt-14 border-t border-white/20 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm text-white/70">
-              © 2024 Smart Network. All rights reserved.
+              © 2026 Smart Networks. All rights reserved.
             </p>
             <div className="flex gap-7">
               {["Privacy Policy", "Terms", "Contact"].map((link) => (
@@ -110,7 +119,7 @@ export default function Footer() {
           </div>
 
           <p className="mt-4 text-center text-xs text-white/50 sm:text-left">
-            Smart Network is one amongst many networks trademarked and
+            Smart Networks is one amongst many networks trademarked and
             operated by{" "}
             <a
               href="https://www.rextonedigital.com/"

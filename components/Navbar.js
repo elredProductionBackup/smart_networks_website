@@ -7,7 +7,6 @@ const NAV_LINKS = [
   { label: "Features", href: "#features" },
   { label: "Solutions", href: "#solutions" },
   { label: "How it Works", href: "#how-it-works" },
-  { label: "About", href: "#about" },
 ];
 
 export default function Navbar() {
@@ -46,15 +45,9 @@ export default function Navbar() {
         <div className="hidden items-center gap-5 lg:flex">
           <a
             href="#"
-            className="text-[15px] font-semibold text-ink transition-colors hover:text-brand"
-          >
-            Login
-          </a>
-          <a
-            href="#"
             className="rounded-xl bg-brand px-5 py-2.5 text-[15px] font-semibold text-white shadow-sm shadow-brand/30 transition-colors hover:bg-brand-dark"
           >
-            Book Demo
+            Book a demo
           </a>
         </div>
 
@@ -110,15 +103,9 @@ export default function Navbar() {
           <div className="mt-4 flex flex-col gap-3 border-t border-slate-100 pt-4">
             <a
               href="#"
-              className="rounded-xl border border-slate-200 px-5 py-2.5 text-center text-[15px] font-semibold text-ink"
-            >
-              Login
-            </a>
-            <a
-              href="#"
               className="rounded-xl bg-brand px-5 py-2.5 text-center text-[15px] font-semibold text-white"
             >
-              Book Demo
+              Book a demo
             </a>
           </div>
         </div>

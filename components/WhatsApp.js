@@ -65,7 +65,7 @@ function ChatMock() {
           <WhatsAppLogo className="h-6 w-6" />
         </span>
         <div>
-          <p className="text-[15px] font-bold text-white">Smart Network Bot</p>
+          <p className="text-[15px] font-bold text-white">Smart Networks Bot</p>
           <p className="text-xs text-emerald-100/80">Online</p>
         </div>
       </div>
@@ -134,11 +134,11 @@ export default function WhatsApp() {
           </span>
 
           <h2 className="font-display mt-6 text-4xl font-extrabold leading-tight tracking-tight text-ink sm:text-5xl">
-            Manage Tasks Directly From WhatsApp
+            Your Officers Live in WhatsApp. Now Their Work Does Too.
           </h2>
 
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-500">
-            Your officers already use WhatsApp every day. Smart Network lets
+            Your officers already use WhatsApp every day. Smart Networks lets
             them create, assign, and complete tasks directly from chat — no
             app downloads required.
           </p>

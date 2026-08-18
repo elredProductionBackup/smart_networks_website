@@ -16,7 +16,7 @@ export default function TrustedBy() {
     <section className="border-t border-slate-100 bg-slate-50/60 py-16 sm:py-20">
       <Reveal className="mx-auto max-w-6xl px-5 sm:px-8">
         <p className="text-center text-sm font-semibold uppercase tracking-[0.15em] text-slate-400">
-          Trusted by community-driven organizations
+          Built for every kind of member-based organization
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-x-10 gap-y-6">

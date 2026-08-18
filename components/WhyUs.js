@@ -36,25 +36,25 @@ const CARDS = [
   {
     icon: "clock",
     title: "Save Time",
-    desc: "Reduce administrative workload by up to 80%. Automate renewals, reminders, and reports.",
+    desc: "Stop losing your evenings to admin busywork. Automate the renewals, reminders, and reports so you can actually lead.",
     tint: "bg-rose-50 text-rose-500",
   },
   {
     icon: "heart",
     title: "Improve Engagement",
-    desc: "Keep members active and informed with targeted communications and event campaigns.",
+    desc: "Members who feel seen stay members. Keep them engaged with communications that land at the right moment.",
     tint: "bg-blue-50 text-blue-500",
   },
   {
     icon: "eye",
     title: "Better Visibility",
-    desc: "Track every aspect of your organization — finances, attendance, tasks — in one dashboard.",
+    desc: "Sleep easier knowing nothing's slipping through the cracks — finances, attendance, and tasks, all in view.",
     tint: "bg-emerald-50 text-emerald-500",
   },
   {
     icon: "bolt",
     title: "Scale Effortlessly",
-    desc: "Manage hundreds or thousands of members without adding headcount or complexity.",
+    desc: "Grow from hundreds to thousands of members without ever feeling like you're falling behind.",
     tint: "bg-amber-50 text-amber-500",
   },
 ];
@@ -64,7 +64,7 @@ export default function WhyUs() {
     <section id="about" className="mx-auto max-w-360 scroll-mt-24 px-5 py-20 sm:px-8 lg:px-12 lg:py-28">
       <Reveal className="text-center">
         <p className="text-sm font-bold uppercase tracking-[0.15em] text-blue-600">
-          Why Smart Network
+          Why Smart Networks
         </p>
         <h2 className="font-display mt-4 text-4xl font-extrabold tracking-tight text-ink sm:text-5xl">
           Built for Busy Network Leaders

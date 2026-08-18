@@ -203,10 +203,10 @@ export default function Product() {
           Product
         </p>
         <h2 className="font-display mt-4 text-4xl font-extrabold tracking-tight text-ink sm:text-5xl">
-          See Smart Network in Action
+          See Smart Networks in Action
         </h2>
         <p className="mx-auto mt-5 max-w-xl text-lg text-slate-500">
-          Built for how real organizations actually work.
+          Built for how organizations actually run.
         </p>
       </Reveal>
 
