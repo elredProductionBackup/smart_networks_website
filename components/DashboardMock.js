@@ -151,33 +151,6 @@ export default function DashboardMock() {
           </ul>
         </div>
       </div>
-
-      {/* Floating: WhatsApp update */}
-      <div className="absolute right-1 top-20 w-52 rounded-2xl border border-slate-100 bg-white p-3 shadow-xl sm:-right-6 sm:top-28 sm:w-64">
-        <div className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500 text-white">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.5 14.2c-.2.6-1.2 1.2-1.7 1.2-.4 0-1 .1-3.3-.9-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 .9-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.1.1.3 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.3.7 1.1 1.4 1.7.9.8 1.7 1 2 1.2.2.1.4.1.5-.1l.6-.7c.2-.2.3-.2.6-.1l1.9.9c.3.1.4.2.5.3.1.2.1.7-.1 1.3Z" />
-            </svg>
-          </span>
-          <span className="text-sm font-bold text-ink">WhatsApp Update</span>
-        </div>
-        <div className="mt-2 rounded-lg bg-emerald-50 p-2.5 text-xs leading-snug text-emerald-700">
-          ✓ Expense of ₹11,500 approved for Membership via WhatsApp
-        </div>
-      </div>
-
-      {/* Floating: Top portfolio */}
-      <div className="absolute left-1 bottom-12 w-48 rounded-2xl border border-slate-100 bg-white p-4 shadow-xl sm:-left-6 sm:bottom-16 sm:w-60">
-        <p className="text-[10px] font-semibold uppercase tracking-wide text-slate-400">
-          Top Portfolio
-        </p>
-        <p className="mt-1 text-sm font-bold text-ink">Membership</p>
-        <p className="text-xs text-slate-400">₹12,000 Budget · 95.8% Utilized</p>
-        <div className="mt-2.5 h-1.5 overflow-hidden rounded-full bg-slate-100">
-          <div className="h-full w-[95.8%] rounded-full bg-amber-500" />
-        </div>
-      </div>
     </div>
   );
 }

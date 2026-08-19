@@ -42,13 +42,13 @@ const CARDS = [
   {
     icon: "heart",
     title: "Improve Engagement",
-    desc: "Members who feel seen stay members. Keep them engaged with communications that land at the right moment.",
+    desc: "Members who feel seen stay members. Track every guest's arrival in real time, so no one is left waiting at the door.",
     tint: "bg-blue-50 text-blue-500",
   },
   {
     icon: "eye",
     title: "Better Visibility",
-    desc: "Sleep easier knowing nothing's slipping through the cracks — finances, attendance, and tasks, all in view.",
+    desc: "Sleep easier knowing nothing's slipping through the cracks — finances, and actionables, all in view.",
     tint: "bg-emerald-50 text-emerald-500",
   },
   {

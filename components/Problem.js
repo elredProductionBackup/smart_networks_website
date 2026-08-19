@@ -4,7 +4,7 @@ const WITHOUT = [
   "Member records scattered across spreadsheets nobody fully trusts",
   "Registrations lost in email threads and paper forms",
   "Financial visibility split across a dozen files",
-  "Task updates buried in endless WhatsApp threads",
+  "Member Queries buried in endless WhatsApp threads",
   "Hours lost to admin busywork every single week",
 ];
 
@@ -12,7 +12,7 @@ const WITH = [
   "Centralized member database",
   "Automated registration workflows",
   "Real-time financial visibility",
-  "WhatsApp task management integration",
+  "Native WhatsApp integration for tasks, queries, and reminders",
   "A real dent in your weekly admin workload",
 ];
 

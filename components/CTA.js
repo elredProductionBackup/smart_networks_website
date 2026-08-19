@@ -4,10 +4,10 @@ export default function CTA() {
   return (
     <section className="bg-slate-50/60 py-20 lg:py-28">
       <Reveal className="mx-auto max-w-3xl px-5 text-center sm:px-8">
-        <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm font-semibold text-ink shadow-sm">
+        {/* <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm font-semibold text-ink shadow-sm">
           <span className="h-2 w-2 rounded-full bg-emerald-500" />
           No credit card required
-        </span>
+        </span> */}
 
         <h2 className="font-display mt-7 text-4xl font-extrabold leading-[1.1] tracking-tight text-ink sm:text-5xl lg:text-6xl">
           Your Members Deserve an

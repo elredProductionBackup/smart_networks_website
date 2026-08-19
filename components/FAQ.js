@@ -10,19 +10,19 @@ const QUESTIONS = [
   },
   {
     q: "Will our volunteers and board actually use this?",
-    a: "Smart Networks is built for non-technical teams — most admins are comfortable within an afternoon, and WhatsApp task management means officers don't have to learn a new app at all.",
+    a: "Smart Networks is built for non-technical teams — most admins are comfortable within an afternoon.",
   },
-  {
-    q: "We already have years of member data in spreadsheets — can we bring it over?",
-    a: "Yes. Import your existing spreadsheets in a few clicks, and our team can help with the migration if you need a hand.",
-  },
-  {
-    q: "What does it cost?",
-    a: "Smart Networks is free to start, with simple plans that scale as your organization grows. No hidden fees, no long-term contracts.",
-  },
+  // {
+  //   q: "We already have years of member data in spreadsheets — can we bring it over?",
+  //   a: "Yes. Import your existing spreadsheets in a few clicks, and our team can help with the migration if you need a hand.",
+  // },
+  // {
+  //   q: "What does it cost?",
+  //   a: "Smart Networks is free to start, with simple plans that scale as your organization grows. No hidden fees, no long-term contracts.",
+  // },
   {
     q: "We manage multiple chapters or clusters — does that work?",
-    a: "Yes. Smart Networks supports multi-cluster organizations, with network-level switching and reporting built in.",
+    a: "Yes. Smart Networks supports multi-cluster organizations.",
   },
 ];
 

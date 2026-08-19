@@ -14,12 +14,6 @@ const ICONS = {
   chat: (
     <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z" />
   ),
-  mail: (
-    <>
-      <rect x="2" y="4" width="20" height="16" rx="2" />
-      <path d="m22 7-10 6L2 7" />
-    </>
-  ),
   chart: (
     <>
       <path d="M3 3v18h18" />
@@ -30,41 +24,40 @@ const ICONS = {
 
 const FEATURES = [
   {
+    icon: "chat",
+    title: "WhatsApp Task Management",
+    desc: "Deeply integrated with WhatsApp — create and assign tasks, share updates, and let members get answers to their queries, all without leaving the chat.",
+    badge: "NEW",
+    highlight: true,
+    span: "lg:col-span-4",
+  },
+  {
     icon: "members",
     title: "Member Management",
     desc: "Never lose track of a member again — renewals, profiles, and communications, all in one place.",
     tint: "bg-blue-50 text-blue-500",
+    span: "lg:col-span-2",
   },
   {
     icon: "calendar",
     title: "Event Management",
     desc: "Fill every seat without the spreadsheet chaos — create events, manage registrations, and track attendees instantly.",
     tint: "bg-emerald-50 text-emerald-500",
+    span: "lg:col-span-2",
   },
   {
     icon: "finance",
     title: "Finance Management",
     desc: "Know exactly where your money stands — budgets, expenses, and dues collection, tracked with total clarity.",
     tint: "bg-amber-50 text-amber-500",
-  },
-  {
-    icon: "chat",
-    title: "WhatsApp Task Management",
-    desc: "Stop chasing follow-ups — create, assign, and complete tasks directly through WhatsApp, where your officers already are.",
-    badge: "NEW",
-    highlight: true,
-  },
-  {
-    icon: "mail",
-    title: "Invitations & Registrations",
-    desc: "Turn prospects into members in a few taps — approvals, invitations, and onboarding, handled end to end.",
-    tint: "bg-violet-50 text-violet-500",
+    span: "lg:col-span-2",
   },
   {
     icon: "chart",
     title: "Analytics & Reporting",
     desc: "Spot problems before they become crises — growth, engagement, and financial health, all in real time.",
     tint: "bg-rose-50 text-rose-500",
+    span: "lg:col-span-2",
   },
 ];
 
@@ -140,9 +133,9 @@ export default function Features() {
           </p>
         </Reveal>
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3">
+        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:mt-16 lg:grid-cols-6">
           {FEATURES.map((feature, i) => (
-            <Reveal key={feature.title} delay={i * 0.08} className="h-full">
+            <Reveal key={feature.title} delay={i * 0.08} className={`h-full ${feature.span}`}>
               <FeatureCard feature={feature} />
             </Reveal>
           ))}

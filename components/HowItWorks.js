@@ -25,7 +25,7 @@ const STEPS = [
   {
     n: "04",
     title: "Track Tasks via WhatsApp",
-    desc: "Your officers manage tasks without leaving WhatsApp.",
+    desc: "Handle tasks, queries, and reminders without ever leaving WhatsApp.",
     active: true,
   },
 ];
