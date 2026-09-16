@@ -2,12 +2,10 @@ import Reveal from "./Reveal";
 
 const ORGS = [
   "Business Networks",
-  "Professional Chambers",
+  "Professional Networks",
   "Alumni Associations",
-  "NGO Coalitions",
   "Trade Associations",
   "Community Foundations",
-  "Industry Groups",
   "Member Clubs",
 ];
 

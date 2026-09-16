@@ -55,9 +55,7 @@ function ProductMock() {
           <span className="h-3 w-3 rounded-full bg-amber-300" />
           <span className="h-3 w-3 rounded-full bg-emerald-300" />
         </div>
-        <div className="flex-1 truncate rounded-lg bg-slate-50 px-4 py-1.5 text-xs text-slate-400 sm:text-sm">
-          app.smartnetwork.io/members
-        </div>
+       
       </div>
 
       {/* App header */}
@@ -72,7 +70,7 @@ function ProductMock() {
             <span className="flex h-4 w-4 items-center justify-center rounded-full bg-rose-100 text-rose-500">
               <span className="h-1.5 w-1.5 rounded-full bg-rose-500" />
             </span>
-            Cluster1 Network
+            Your Network
           </span>
           <svg className="h-5 w-5 shrink-0 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
             <path d="M18 8a6 6 0 0 0-12 0c0 4.5-2 6-2 6h16s-2-1.5-2-6ZM9.5 17a2.5 2.5 0 0 0 5 0" />
@@ -199,15 +197,11 @@ export default function Product() {
   return (
     <section id="solutions" className="mx-auto max-w-360 scroll-mt-24 px-5 py-20 sm:px-8 lg:px-12 lg:py-28">
       <Reveal className="text-center">
-        <p className="text-sm font-bold uppercase tracking-[0.15em] text-brand">
-          Product
-        </p>
+        
         <h2 className="font-display mt-4 text-4xl font-extrabold tracking-tight text-ink sm:text-5xl">
           See Smart Networks in Action
         </h2>
-        <p className="mx-auto mt-5 max-w-xl text-lg text-slate-500">
-          Built for how organizations actually run.
-        </p>
+        
       </Reveal>
 
       <Reveal variant="zoom" delay={0.1} className="mt-12 lg:mt-16">

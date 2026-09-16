@@ -9,7 +9,7 @@ import WhyUs from "@/components/WhyUs";
 import HowItWorks from "@/components/HowItWorks";
 import CostOfWaiting from "@/components/CostOfWaiting";
 import FAQ from "@/components/FAQ";
-import CTA from "@/components/CTA";
+// import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
       <HowItWorks />
       <CostOfWaiting />
       <FAQ />
-      <CTA />
+      {/* <CTA /> */}
       <Footer />
     </main>
   );

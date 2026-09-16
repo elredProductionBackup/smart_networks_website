@@ -47,10 +47,8 @@ export default function HowItWorks() {
           <p className="text-sm font-bold uppercase tracking-[0.15em] text-brand">
             Getting Started
           </p>
-          <h2 className="font-display mt-4 text-4xl font-extrabold tracking-tight text-ink sm:text-5xl">
-            How It Works
-          </h2>
-          <p className="mx-auto mt-5 max-w-xl text-lg text-slate-500">
+         
+          <p className="mx-auto mt-5 max-w-xl text-xl text-slate-500 font-bold">
             Go from signup to fully operational in under an hour.
           </p>
         </Reveal>

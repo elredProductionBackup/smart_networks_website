@@ -121,16 +121,11 @@ export default function Features() {
     <section id="features" className="scroll-mt-24 bg-slate-50/60 py-20 lg:py-28">
       <div className="mx-auto max-w-360 px-5 sm:px-8 lg:px-12">
         <Reveal className="text-center">
-          <p className="text-sm font-bold uppercase tracking-[0.15em] text-blue-600">
-            Features
-          </p>
+          
           <h2 className="font-display mt-4 text-4xl font-extrabold tracking-tight text-ink sm:text-5xl">
             Everything Your Network Needs
           </h2>
-          <p className="mx-auto mt-5 max-w-xl text-lg text-slate-500">
-            One platform to run your entire organization. No more juggling
-            tools.
-          </p>
+          
         </Reveal>
 
         <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:mt-16 lg:grid-cols-6">

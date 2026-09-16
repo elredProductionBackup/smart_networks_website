@@ -42,7 +42,7 @@ const CARDS = [
   {
     icon: "heart",
     title: "Improve Engagement",
-    desc: "Members who feel seen stay members. Track every guest's arrival in real time, so no one is left waiting at the door.",
+    desc: "Members who feel seen stay members. Track every member's arrival in real time, so no one is left waiting at the door.",
     tint: "bg-blue-50 text-blue-500",
   },
   {
@@ -67,7 +67,7 @@ export default function WhyUs() {
           Why Smart Networks
         </p>
         <h2 className="font-display mt-4 text-4xl font-extrabold tracking-tight text-ink sm:text-5xl">
-          Built for Busy Network Leaders
+          Built for Busy Network Admins
         </h2>
       </Reveal>
 

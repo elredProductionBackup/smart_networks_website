@@ -1,6 +1,6 @@
 const STATS = [
   {
-    value: "₹36,000",
+    value: "₹12,50,000",
     label: "Yearly Income 2026",
     name: "Income",
     tint: "bg-emerald-50",
@@ -24,7 +24,7 @@ const STATS = [
     glyph: "₹",
   },
   {
-    value: "₹0.00",
+    value: "₹9,80,000",
     label: "Total Expenses 2026",
     name: "Expense",
     tint: "bg-purple-50",
@@ -46,8 +46,8 @@ const PORTFOLIOS = [
 ];
 
 const EVENTS = [
-  { name: "Figma Config", date: "12th–14th Aug, 2026", amount: "₹8,500" },
-  { name: "Summer Leadership Workshop", date: "22nd Aug, 2026", amount: "₹18,500" },
+  { name: "Figma Config", date: "12th–14th Oct, 2026", amount: "₹8,500" },
+  { name: "Summer Leadership Workshop", date: "22nd Oct, 2026", amount: "₹18,500" },
 ];
 
 function Donut({ pct, ring }) {
@@ -73,7 +73,7 @@ export default function DashboardMock() {
             <span className="h-3 w-3 rounded-full bg-emerald-300" />
           </div>
           <div className="flex-1 truncate rounded-lg bg-slate-50 px-4 py-2 text-xs text-slate-400 sm:text-sm">
-            app.smartnetwork.io/finance
+            &nbsp;
           </div>
         </div>
 

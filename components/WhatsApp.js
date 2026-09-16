@@ -5,7 +5,7 @@ const BENEFITS = [
   "Instant answers to member queries, straight from the chatbot",
   "Update actionables the moment they're done — no app switching",
   "Automatic reminders keep everyone in the loop on upcoming events",
-  "Real-time arrival tracking, so every guest is welcomed right on time",
+  "Real-time arrival tracking, so every member is welcomed right on time",
 ];
 
 function WhatsAppLogo({ className }) {
@@ -51,11 +51,11 @@ export default function WhatsApp() {
           </h2>
 
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-500">
-            From the moment a query comes in to the moment a guest walks
+            From the moment a query comes in to the moment a member walks
             through the door, Smart Networks keeps every conversation warm
             and personal — right inside WhatsApp. Get instant answers from
             our chatbot, update actionables on the go, and send timely
-            reminders so every event runs smoothly and every guest feels
+            reminders so every event runs smoothly and every member feels
             expected.
           </p>
 

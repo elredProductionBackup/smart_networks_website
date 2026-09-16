@@ -1,7 +1,7 @@
 import Reveal from "./Reveal";
 
 const WITHOUT = [
-  "Member records scattered across spreadsheets nobody fully trusts",
+  "Member records scattered across spreadsheets",
   "Registrations lost in email threads and paper forms",
   "Financial visibility split across a dozen files",
   "Member Queries buried in endless WhatsApp threads",
@@ -13,7 +13,7 @@ const WITH = [
   "Automated registration workflows",
   "Real-time financial visibility",
   "Native WhatsApp integration for tasks, queries, and reminders",
-  "A real dent in your weekly admin workload",
+  "A real improvement in admin productivity",
 ];
 
 function CrossIcon({ className }) {
@@ -53,7 +53,7 @@ export default function Problem() {
     <section className="mx-auto max-w-360 px-5 py-20 sm:px-8 lg:px-12 lg:py-28">
       <Reveal className="text-center">
         <p className="text-sm font-bold uppercase tracking-[0.15em] text-brand">
-          The Problem
+          The Problem we are solving
         </p>
         <h2 className="font-display mt-4 text-4xl font-extrabold tracking-tight text-ink sm:text-5xl">
           Your Network Runs on Tools That Were Never Built to Run a Network
